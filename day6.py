@@ -1,6 +1,3 @@
-# Communication system
-# 4 unique Char Start of packet marker
-
 inp_path = open("day6_input.txt", "r").read()
 
 
