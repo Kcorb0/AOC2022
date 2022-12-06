@@ -5,13 +5,9 @@ inp_path = open("day6_input.txt", "r").read()
 
 
 def communication(s):
-
-    cnt = s
-
     for i in range(s, len(inp_path) + 1):
         if len(set(inp_path[i - s : i])) == s:
-            return cnt
-        cnt += 1
+            return i
 
 
 print(f"Part 1: {communication(4)}")
